@@ -12,7 +12,7 @@ app.use(cors());
 const PORT = process.env.PORT || 3001;
 
 app.get('/test', (request, response) => {
-res.send('test'); 
+response.send('test'); 
 
 })
 const client = jwksClient({
